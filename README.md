@@ -8,6 +8,14 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
+## Problem Statement
+
+Given historical user–movie ratings, the goal is to predict how users would rate unseen movies and recommend the Top-N most relevant movies for each user.
+
+This simulates real-world recommendation systems used in streaming platforms such as Netflix and Amazon Prime.
+
+---
+
 ## Dataset
 
 * Dataset: MovieLens 100K
@@ -28,6 +36,22 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
+## System Architecture
+
+Raw Ratings Data
+        ↓
+User–Item Matrix Construction
+        ↓
+Similarity Models (User / Item)
+        ↓
+Matrix Factorization (SVD)
+        ↓
+Predicted Ratings Matrix
+        ↓
+Top-N Recommendation Function
+
+---
+
 ## Methods Implemented
 
 1. Popularity-Based Recommendation
@@ -37,10 +61,28 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
+## Data Processing
+
+* Merged ratings and movie metadata
+* Built user–item rating matrix
+* Filled missing ratings with zeros for matrix factorization
+* Mean-centered ratings for SVD
+
+---
+
 ## Evaluation
 
-* RMSE for rating prediction
-* Top-N recommendation evaluation
+* RMSE — evaluates accuracy of predicted ratings
+* Precision@K — evaluates quality of Top-N recommendations
+
+---
+
+## Limitations & Future Work
+
+* Cold-start problem not handled for new users or movies
+* No content-based features (genres, tags)
+* Could improve using hybrid recommendation methods
+* Could deploy model using FastAPI as REST service
 
 ---
 
