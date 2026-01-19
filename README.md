@@ -1,6 +1,6 @@
-# 🎬 Movie Recommendation System — Machine Learning Capstone
+# Movie Recommendation System — Machine Learning Capstone
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds a movie recommendation system using collaborative filtering techniques to recommend movies based on user similarity and item similarity. It also explores matrix factorization using SVD to learn latent features of users and movies.
 
@@ -8,7 +8,7 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * Dataset: MovieLens 100K
 * Users: 943
@@ -18,7 +18,7 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -28,7 +28,7 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
-## 🧠 Methods Implemented
+## Methods Implemented
 
 1. Popularity-Based Recommendation
 2. User-Based Collaborative Filtering (Cosine Similarity)
@@ -37,14 +37,14 @@ The objective is to simulate real-world recommender systems used in streaming pl
 
 ---
 
-## 📈 Evaluation
+## Evaluation
 
 * RMSE for rating prediction
 * Top-N recommendation evaluation
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -55,7 +55,7 @@ Open `notebook.ipynb` and run all cells.
 
 ---
 
-## 🎯 What I Learned
+## What I Learned
 
 * Working with sparse user–item matrices
 * Similarity-based recommendation techniques
@@ -64,7 +64,7 @@ Open `notebook.ipynb` and run all cells.
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Kaushalya Rathnayake**
 Software Engineer with growing focus on Machine Learning GitHub: https://github.com/KaushalyaDasanayake LinkedIn: https://www.linkedin.com/in/kaushalya-rathnayake-d/
